@@ -1,0 +1,16 @@
+{
+  "collections": [
+    {
+      "name": "candidates",
+      "label": "Candidates",
+      "folder": "data/candidates",
+      "create": true,
+      "fields": [
+        { "name": "name", "label": "Candidate Name", "type": "string" },
+        { "name": "party", "label": "Party", "type": "string" },
+        { "name": "votes", "label": "Votes", "type": "number" },
+        { "name": "image", "label": "Photo", "type": "image" }
+      ]
+    }
+  ]
+}
